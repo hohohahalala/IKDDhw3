@@ -7,5 +7,3 @@ file = sc.textFile("/Users/hohohahalala/Documents/IKDD/IKDDhw3/5000.txt.utf-8.tx
 counts = file.flatMap(lambda line: line.split(" ")) \
              .collect()
 print len(counts)
-# print counts.
-# counts.saveAsTextFile("/Users/hohohahalala/Documents/IKDD/IKDDhw3/count")
