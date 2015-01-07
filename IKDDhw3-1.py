@@ -1,7 +1,6 @@
 from pyspark import SparkConf, SparkContext
 import sys,os
 
-
 def main():
 	conf = SparkConf().setAppName("IKDDhw3").setMaster("local")
 	sc = SparkContext(conf=conf)
@@ -15,7 +14,6 @@ def main():
 	except:
 		print "Usage: \"./bin/pyspark python_file_path data_file_path\""
 		exit()
-
 
 if __name__ == '__main__':
 	main()
