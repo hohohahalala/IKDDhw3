@@ -1,6 +1,6 @@
 #IKDDhw3
 
-try Spark standalone 
+Try Spark Standalone mode
 
 ```
 execution: ./bin/pyspark IKDDhw3-1.py_path 5000.txt_path
