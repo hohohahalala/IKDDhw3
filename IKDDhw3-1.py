@@ -7,7 +7,7 @@ def main():
 	try:
 		file_name = sys.argv[1]
 		file = sc.textFile(file_name)
-		counts = file.flatMap(lambda line: line.split(" ")) \
+		counts = file.flatMap(lambda line: line.split()) \
 				.collect()
 		print "----------------------------------------------------------"
 		print "Total word number: " + str(len(counts))
